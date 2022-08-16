@@ -1,7 +1,7 @@
 name: Example workflow for Maven using Snyk
 on:
   schedule:
-      - cron: "*/5 * * * *"
+      - cron: "0 14 * * *"
 jobs:
   security:
     runs-on: ubuntu-latest
